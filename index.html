@@ -69,9 +69,9 @@
 			   if(validate(t) == 0) return;
 			   
 			   var result = calucate(t,u);
+			   $("result").html("Temperature is <b>" + result.temp+"</b> in"+ result.unit );
 			   
-			   
-			   alert("Temperature is "+t1+" in "+u1);
+			   //alert("Temperature is "+t1+" in "+u1);//
 			});
 		});
 	</script>
